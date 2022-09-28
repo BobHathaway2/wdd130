@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Open+Sans:wght@300&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto; 
@@ -7,6 +9,7 @@ nav a {
     text-align: center;
     color: #00b4d8;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -20,10 +23,14 @@ main section {
 #background {
     height: 725px;
     background-color: #ffffff;
+    margin-bottom: 200px;
 }
 body {
     background-color: #00b4d8;
-}
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;}
 header {
     background-color: #03045e;
 }
@@ -32,9 +39,13 @@ nav a:hover {
     color: #ffffff;
 }
 .book, .join {
-    background-color: #00b4d8;
+    background-color: #03045e;
     color:aqua;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }   
 .book:hover, .join:hover {
     background-color: #03045e;
@@ -42,21 +53,31 @@ nav a:hover {
 }
 .msg {
     background-color: #00b4d8;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #03045e;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
     color: #ffffff;
+    font-family: Kavoon, "Open Sans", Helvetica;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #ffffff;
 }
-msg h2 {
+.msg h2 {
     color: #ffffff;
+    font-family: Kavoon, "Open Sans", Helvetica;
 }
-msg p {
+.msg p {
     color: #ffffff;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer h3 {
     color: #ffffff;
@@ -80,4 +101,25 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
-}   
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.icon {
+    padding-top: 10px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border:10px solid #000000;
+}
+main section img {
+    box-sizing: border-box;
+}
