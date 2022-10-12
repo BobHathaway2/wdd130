@@ -193,6 +193,156 @@ div section {
     opacity: .6;
     transform: scale(1.1);
 }
+
+/* Prices and Dates Page */
+
+main {
+    width: 90%;
+    margin: 5%;
+}
+
+ul, .comment, .price  {
+    font-size: .7em;
+}
+.grandcanyon1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    border:4px solid #000000;
+}
+.dates {
+    list-style-type: none;
+}
+h1 {
+    color: #ffffff;
+    font-family: Kavoon, "Open Sans", Helvetica;
+    font-size: 2em;
+    text-align: center;
+}
+h2 {
+    color: #03045e;
+    font-family: Kavoon, "Open Sans", Helvetica;
+    font-size: 1.5em;
+    text-align: center;
+}
+.river-img-left {
+    grid-column: 1/2;
+    grid-row: 1/12;
+    width: 100%;
+}
+.river-img-right {
+    grid-column: 3/4;
+    grid-row: 1/12;
+    width: 100%;
+}
+.grandcanyon1 h2, .salmon h2 {
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+.grandcanyon2 h2, .desolation h2 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.price-right {
+    grid-column: 2/4;
+    grid-row: 11/12;
+}
+.price-left {
+    grid-column: 1/3;
+    grid-row: 11/12;
+}
+.desolation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    border:4px solid #000000;
+    margin-top: -4px; 
+}
+.salmon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    border:4px solid #000000;
+    margin-top: -4px; 
+}
+.grandcanyon2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    border:4px solid #000000;
+    margin-top: -4px; 
+}
+.grandcanyon1 .dates {
+    grid-column: 2/4;
+    grid-row: 3/8;
+}
+.grandcanyon1 .comment {
+    grid-column: 2/4;
+    grid-row: 9/10;
+}
+.salmon .dates {
+    grid-column: 2/4;
+    grid-row: 5/6;
+}
+.salmon .comment {
+    grid-column: 2/4;
+    grid-row: 7/8;
+}
+.desolation .dates {
+    grid-column: 1/3;
+    grid-row: 6/7;
+}
+.grandcanyon2 .dates {
+    grid-column: 1/3;
+    grid-row: 6/7;
+}
+
+/*
+.grandcanyon1 {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    border:5px solid #000000;
+}
+.desolation {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    border:5px solid #000000;
+    margin-top: -5px; 
+}
+.salmon {
+    grid-column: 1/4;
+    grid-row: 4/5;
+    border:5px solid #000000;
+    margin-top: -5px; 
+}
+.grandcanyon2 {
+    grid-column: 1/4;
+    grid-row: 5/6;
+    border:5px solid #000000;
+    margin-top: -5px; 
+    }
+
+.grandcanyon1 img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+}
+.dates-grid ul {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.grandcanyon2 ul, .desolation ul {
+    grid-column: 1/3;
+}
+.grandcanyon1 img, .salmon img {
+    grid-column: 1/2;
+}
+.grandcanyon2 img, .desolation img {
+    grid-column: 3/4;
+}
+*/
+/* media */
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -234,3 +384,6 @@ div section {
         margin-top: 25px;
     }
 }
+
+
+
