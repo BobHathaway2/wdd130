@@ -194,11 +194,10 @@ div section {
     transform: scale(1.1);
 }
 
-/* Prices and Dates Page */
+/* ----------------------------------------- Prices and Dates Page ---------------------------------------------  */
 
 main {
-    width: 90%;
-    margin: 5%;
+    margin: 2%;
 }
 
 ul, .comment, .price  {
