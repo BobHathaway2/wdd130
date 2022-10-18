@@ -1,8 +1,104 @@
-.logo, .icon {
-    width: 80px;
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Peralta&display=swap');
+#content {
+    max-width: 1600px;
+    margin: 0 auto; 
+
+}
+main {
+    background-color: #bbdef0;
+}
+header {
+    background-color: #efca08;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    grid-template-rows: 100px;
+}
+  .logo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
 }
 #logo_link {
-    padding-top: 5px;
     justify-self: center;
     align-self: center;
 }
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    text-align: center;
+    color: #f08700;
+    text-decoration: none;
+    padding: 35px;
+    font-size: 2em;
+}
+a:hover {
+    color: #ffffff;
+}
+.main-home-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(5 1fr);
+}
+h1 {
+    text-align: center;
+    font-size: 5em;
+    font-family: Peralta, "Open Sans", Helvetica;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.main-home-grid img {
+    border:1px solid #000000;
+      }
+main h1 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+  .sunset-image {
+    grid-column: 3/4;
+    grid-row: 2/4;
+    width: 100%;
+    margin: -2px;
+}
+.blazer-image {
+    grid-column: 1/2;
+    grid-row: 4/6;
+    width: 100%;
+}
+.main-home-grid p {
+    font-size: 1.5em;
+    font-family: Alkalami, Helvetica, sans-serif;
+    grid-column: 1/4;
+    grid-row: 2/6;
+    margin: 10px;
+
+}
+.top-text {
+    grid-column: 1/3;
+    grid-row: 2/4;
+}
+.bottom-text {
+    grid-column: 2/4;
+    grid-row: 4/6;
+}
+footer {
+    background-color: #efca08;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px auto;
+}
+footer p:nth-child(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 10px;
+}
+footer p:nth-child(2) {
+    grid-column: 2/3;
+    grid-row: 1/1;
+}
+footer p:nth-child(3) {
+    grid-column: 3/4;
+    grid-row: 1/1;
+}
+    
