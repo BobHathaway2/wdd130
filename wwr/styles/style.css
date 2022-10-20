@@ -375,7 +375,7 @@ form {
 .moveDown {
     margin-top: 3em;
 }
-/* media */
+/* -------------------------- media ----------------------------- */
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
