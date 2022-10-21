@@ -6,6 +6,7 @@
 }
 main {
     background-color: #bbdef0;
+    padding: 20px;
 }
 header {
     background-color: #efca08;
@@ -16,7 +17,7 @@ header {
 .logo {
     grid-column: 1/2;
     grid-row: 1/2;
-    width: 100%;
+    width: 90px;
 }
 #logo_link {
     justify-self: center;
