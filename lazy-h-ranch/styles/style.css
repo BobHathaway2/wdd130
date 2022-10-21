@@ -193,7 +193,11 @@ footer p:nth-child(3) {
   from {opacity: .4}
   to {opacity: 1}
 }
-/* ----------------------------------- construction page ---------------------------------- */
+/* ----------------------------------- Wildlife page ---------------------------------- */
+.main-wildlife-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
 
 /* ----------------------------------- contact us page ------------------------------------ */
 form {
