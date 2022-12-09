@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Peralta&display=swap');
+#content {
+    max-width: 1600px;
+    margin: 0 auto; 
+
+}
+main {
+    background-color: #bbdef0;
+    padding: 20px;
+}
+header {
+    background-color: #efca08;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    grid-template-rows: 100px;
+}
+.logo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 90px;
+}
+#logo_link {
+    justify-self: center;
+    align-self: center;
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: Peralta, "Open Sans", Helvetica;
+}
+h2 {
+  font-family: Alkalami, "Open Sans", Helvetica;
+  text-align: center;
+  font-size: 2em;
+}
+h3 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+footer {
+    background-color: #efca08;
+    text-align: center;
+    margin: -20px auto;
+    width: 100%;
+}
+#myChart{
+  background-color: #efca08;
+  border-radius: 6px;
+  box-shadow: 0 3rem 5rem -2rem rgba(0, 0, 0, 0.6);
+  grid-column: 1/4;
+  grid-row: 2/4;
+  margin: 0 auto;
+}
+.input {
+    margin: .4rem 0;
+    text-align: center;
+}
