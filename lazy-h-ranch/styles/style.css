@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Peralta&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto; 
@@ -25,14 +26,15 @@ header {
 }
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
 }
 a {
     text-align: center;
     color: #f08700;
     text-decoration: none;
-    padding: 35px;
-    font-size: 2em;
+    padding: 35px 0;
+    margin: 4px 4px;
+    font-size: 1em;
 }
 a:hover {
     color: #ffffff;
@@ -341,4 +343,31 @@ button {
 }
 .moveDown {
   margin-top: 3em;
+}
+/* ------------------------------- Automation Page ------------------------------- */
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+table, th, td{
+  border: 1px solid #cdcdcd;
+}
+table th, table td{
+  padding: 5px;
+  text-align: left;
+}
+th:nth-child(-n+3) {
+  width: 10%;
+}
+#automation-main h1, #automation-main h2, #automation-main h3, #automation-main p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+.inline-block {
+  overflow: hidden; 
+  display: inline-block;
+}
+.app-mock {
+  width: 200px;
+  height: auto;
 }
