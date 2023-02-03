@@ -368,6 +368,5 @@ th:nth-child(-n+3) {
   display: inline-block;
 }
 .app-mock {
-  width: 200px;
-  height: auto;
+  height: 400px;
 }
